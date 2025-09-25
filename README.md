@@ -74,6 +74,6 @@ To prepare ICN for training, use the pretrained model [DETR-R50](https://github.
 CUDA_VISIBLE_DEVICES=0 python ./main.py --finetune <path/to/detr-r50-e632da11.pth> --dataset_path <path/to/datasets> --dataset_name <dataset_name> --num_queries <num_of_classes>
 ```
 ## Acknowledgment
-This code is based on the DEtection TRansformer [(DETR)](https://github.com/facebookresearch/detr) and [(INTR)](https://github.com/Imageomics/INTR) methods.
+This code is based on the DEtection TRansformer [(DETR)](https://github.com/facebookresearch/detr) and Interpretable Transformer [(INTR)](https://github.com/Imageomics/INTR) methods.
 
 Thanks for their great works.
