@@ -25,10 +25,10 @@ import datasets
 import util.misc as utils
 from datasets import build_dataset
 
-from models import build_model
-from engine import evaluate, train_one_epoch
-# from k_models import build_model
-# from k_engine import evaluate, train_one_epoch
+# from models import build_model
+# from engine import evaluate, train_one_epoch
+from k_models import build_model
+from k_engine import evaluate, train_one_epoch
 
 def get_args_parser():
     parser = argparse.ArgumentParser('Set transformer detector', add_help=False)
