@@ -64,7 +64,7 @@ CUDA_VISIBLE_DEVICES=0 python ./main.py --eval --resume <path/to/intr_checkpoint
 To generate visual representations of the ICN's interpretations, execute the provided command below. This command will present the interpretation for a specific class with the index <class_number>. By default, it will display interpretations from all attention heads. To focus on interpretations associated with the top queries labeled as top_q as well, set the parameter sim_query_heads to 1. Use a batch size of 1 for the visualization.
 
 ```
-python -m tools.visualization --eval --resume <path/to/intr_checkpoint_aircraft_detr_r50.pth> --dataset_path <path/to/datasets> --dataset_name <dataset_name> --class_index <class_number>
+python -m tools.k_visualization --eval --resume <path/to/intr_checkpoint_aircraft_detr_r50.pth> --dataset_path <path/to/datasets> --dataset_name <dataset_name> --class_index <class_number>
 ```
 
 ## ICN Training
